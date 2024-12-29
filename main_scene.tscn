@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5eh35x5ul7y3"]
+
+[ext_resource type="Texture2D" uid="uid://cbwsnf0jqfvvx" path="res://cat.jpg" id="1_j7sv4"]
+
+[node name="main-scene" type="Node2D"]
+
+[node name="cat" type="Sprite2D" parent="."]
+scale = Vector2(3, 3)
+texture = ExtResource("1_j7sv4")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3.05123, 3.48715)
+zoom = Vector2(0.53, 0.53)
