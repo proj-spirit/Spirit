@@ -5,7 +5,9 @@
 [node name="main-scene" type="Node2D"]
 
 [node name="cat" type="Sprite2D" parent="."]
-scale = Vector2(3, 3)
+position = Vector2(955, 417)
+rotation = -0.359538
+scale = Vector2(3.26677, 2.96733)
 texture = ExtResource("1_j7sv4")
 
 [node name="Camera2D" type="Camera2D" parent="."]
